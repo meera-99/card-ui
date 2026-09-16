@@ -1,0 +1,69 @@
+.box {
+  height: 390px;
+  width: 250px;
+  background-color: rgb(221, 221, 221);
+  border: 1px solid lightgrey;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-around;
+    flex-position:baseline;
+}
+
+.half-img h3{
+    color:black;
+    font-style:bold;
+  
+}
+
+.half-img p{
+    color:gray;
+    font-size:13px;
+    
+}
+
+.full-img h3{
+    margin-top:107%;
+    color:rgb(255, 255, 255);
+    font-style:bold;
+    
+}
+
+.full-img p{
+    color:gray;
+    font-size:13px;
+}
+
+.half-img img{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    height:65%;
+    object-fit:cover;
+    border-radius:20px 20px 20px 20px ;
+}
+
+
+.button{
+    border:none;
+    padding:10px;
+    width:100%;
+    border-radius:999px;
+   margin-bottom:10px;
+}
+
+.half-img button{
+    background-color:rgb(19, 25, 74);
+    color:white;
+}
+
+.full-img{
+    background-image: url(mountimg.jpg);
+    background-position:center;
+}
+
